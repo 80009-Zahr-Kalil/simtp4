@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e2439;
+    font-family: "poppins";
+    color: white;
+}
+
+#header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#inputs {
+    margin: 50px;
+}
+
+select {
+    background: rgb(22, 88, 143);
+    font-size: 15px;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn {
+    margin: 20px;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover {
+    background-color: #8634c9;
+    box-shadow: 0px 15px 20px rgba(138, 50, 165, 0.4);
+    color: #fff;
+}
+ 
+#tablaMonteCarlo {
+     display: none;
+     margin-left: auto; 
+     margin-right: auto;
+     width: 50%;
+     border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid rgb(77, 76, 76);
+    padding: 5px;
+    width: 5.5%;
+}
+    
+th {
+    background: rgb(251, 187, 103);
+    color: black;
+}
+
+#utilidadPromedio {
+    display: none;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}

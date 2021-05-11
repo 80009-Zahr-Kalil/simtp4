@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>TP4</title>
+</head>
+<body>
+
+    <div id="header">
+        <p>SIMULACIÓN TP4</p>
+        <hr>
+    </div>
+
+    <div id="inputs">
+        <label>Cantidad de Vuelos a simular: </label> <input type="text" size="10" class="textbox"> <br>
+        <label>Mostrar desde el vuelo Nro: </label> <input type="text" size="3" class="textbox"> <br>
+        <label>Mostrar hasta el vuelo Nro: </label><input type="text" size="3" class="textbox"> <br>
+        <label>Cantidad de Reservas: </label>
+        <select id="selector">
+            <option value="0">-- Seleccionar Reservas --</option>
+            <option value="1">31</option>
+            <option value="2">32</option>
+            <option value="3">33</option>
+            <option value="4">34</option>
+        </select> <br>
+        <button id="btnGenerar" class="btn">Generar</button>
+    </div>
+
+    
+    <table id="tablaMonteCarlo">
+        
+    </table>
+
+    <p id="utilidadPromedio"></p>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
